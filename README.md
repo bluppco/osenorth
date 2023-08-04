@@ -4,6 +4,9 @@ An award winning full-service creative agency, infinitely crazy about functional
 ## Problems
 - Images and Videos taking too much time to load.
 - Videos not loading on iPhone and iPad. Tested all the browsers but did not work.
+- Missing metatags.
+- Missing robots.txt file.
+- Missing sitemap.xml file.
 
 ## Changes
 - Webm file format for video doesn't work on iPhone browsers. I converted it to mp4 so that it could be played on all the devices.
