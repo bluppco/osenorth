@@ -26,6 +26,9 @@ An award winning full-service creative agency, infinitely crazy about functional
 - BunnyCDN
 - Cloudflare
 
+# FONT
+- IBM Plex Sans - available for free.
+
 ## How to run the project
 - Clone the project.
 - install packages
