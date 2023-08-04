@@ -26,7 +26,7 @@ An award winning full-service creative agency, infinitely crazy about functional
 - BunnyCDN
 - Cloudflare
 
-# FONT
+# Font
 - IBM Plex Sans - available for free.
 
 ## How to run the project
@@ -37,4 +37,4 @@ An award winning full-service creative agency, infinitely crazy about functional
 - run astro project
 
         npm run dev
-- Enjoy
+- Enjoy 🎉
