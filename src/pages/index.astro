@@ -32,81 +32,104 @@ import Footer from "../components/home/Footer.astro"
 					text="Because we're awesome!"   
 				/>  
 			<div class="grid grid-cols-3 gap-10 mt-14 mb-28"> 
-				<Morework
-					image=""
-					title="OnePort — Starlight Theme"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="KOBP — Paranormal Investigation Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"NO-CODE"
-						]}
-				/>
-				<Morework
-					image=""
-					title="Twitter Bot Website Design"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Krauf Portfolio"
-					category={[
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="MellowVillas — Staycation Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="Minecraft Server"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Urbano — Digital Agency Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Joseph Portfolio"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Ahoikapptn! — Agency Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
+				<!-- const moreWorkData = [
+					{
+						// image:"",
+						title:"OnePort — Starlight Theme",
+						category:[
+							"BRANDING",
+							"DESIGN",
+							"DEVELOPMENT"
+							]
+					},
+					{
+						// image:"",
+						title:"KOBP — Paranormal Investigation Website",
+						category:[
+							"BRANDING",
+							"DESIGN",
+							"NO-CODE"
+						]
+					},
+					{				
+						// image:"",
+						title:"Twitter Bot Website Design",
+						category:[
+							"BRANDING",
+							"DESIGN"
+						]
+					},
+					{
+						// image:"",
+						title:"Krauf Portfolio",
+						category:[
+							"DESIGN",
+							"DEVELOPMENT"
+						]
+					},
+					{
+						// image:"",
+						title:"MellowVillas — Staycation Website",
+						category:[
+							"BRANDING",
+							"DESIGN",
+							"DEVELOPMENT"
+						]
+					},
+					{
+						// image:"",
+						title:"Minecraft Server",
+						category:[
+							"BRANDING",
+							"DESIGN"
+						]
+					},
+					{
+						// image:"",
+						title:"Urbano — Digital Agency Website",
+						category:[
+							"BRANDING",
+							"DESIGN"
+						]
+					},
+					{
+						// image:"",
+						title:"Joseph Portfolio",
+						category:[
+							"BRANDING",
+							"DESIGN"
+						]
+					},
+					{
+						// image:"",
+						title:"Ahoikapptn! — Agency Website",
+						category:[
+							"BRANDING",
+							"DESIGN"
+						]
+					}, 
+
+				];
+
+		  	---
+
+			export default function Index() {
+  				return (
+    				<main>
+      					{/* Your other content goes here */}
+      					{moreWorkData.map((project, index) => (
+        				<Morework
+          					key={index}
+          					// image={project.image}
+          					title={project.title}
+          					category={project.category}
+        				/>
+     				 ))}
+    				</main>
+  						);
+					} -->
+
+				
 			</div>         
 			</div>
 			<hr>
