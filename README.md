@@ -30,8 +30,8 @@ An award winning full-service creative agency, infinitely crazy about functional
 - Clone the project.
 - install packages
 
-    npm i
+        npm i
 - run astro project
 
-    npm run dev
+        npm run dev
 - Enjoy
