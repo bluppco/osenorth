@@ -1,11 +1,47 @@
-<footer>
+---
+import Title from "./Title.astro"
+---
+<footer class="p-10">
+    <div class="flex justify-between mb-20">
+        <div class="flex-col space-y-16">
+            <div>
+                <Title
+                    title="Got a project?"
+                    text="Let's talk"
+                />
+            </div>
+            <p class="text-white">Tell us everything</p>
+        </div>
+        <div class="flex gap-32">
+                <ul class="flex-cols space-y-3">
+                    <li class="text-zinc-400 text-sm">About</li>
+                    <li class="text-zinc-400 text-sm">Services</li>
+                    <li class="text-zinc-400 text-sm">Clients</li>
+                    <li class="text-zinc-400 text-sm">Contact</li>
+                </ul>
+                <ul class="flex-cols space-y-3">
+                    <li class="text-zinc-400 text-sm">Playground</li>
+                    <li class="text-zinc-400 text-sm">News</li>
+                    <li class="text-zinc-400 text-sm">Voyages</li>
+                    <li class="text-zinc-400 text-sm">Offices</li>
+                </ul>
+                <ul class="flex-cols space-y-3">
+                    <li class="text-zinc-400 text-sm">accelerator.osenorth</li>
+                    <li class="text-zinc-400 text-sm">code.osenorth</li>
+                    <li class="text-zinc-400 text-sm">community.osenorth</li>
+                    <li class="text-zinc-400 text-sm">store.osenorth</li>
+                    <li class="text-zinc-400 text-sm">events.osenorth</li>
+                </ul>
+        </div>
+    </div>
+    <hr>
     <nav class="flex justify-between py-6">
-        <h1 class="text-xl font-extrabold">osenorth.</h1>
+        <h1 class="text-xl font-extrabold text-white text-sm">osenorth.</h1>
         <ul class="flex gap-10">
-            <li>Box1</li>
-            <li>Box2</li>
-            <li>Box3</li>
-            <li>Box4</li>
+            <li class="text-zinc-400 text-sm">Box1</li>
+            <li class="text-zinc-400 text-sm">Box2</li>
+            <li class="text-zinc-400 text-sm">Box3</li>
+            <li class="text-zinc-400 text-sm">Box4</li>
         </ul>
     </nav>
 </footer>

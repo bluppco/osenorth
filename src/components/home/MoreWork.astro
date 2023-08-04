@@ -1,0 +1,25 @@
+---
+import MoreWorkItem from "./MoreWorkItem.astro"
+import { WORK } from "../../constants"
+---
+<div class="p-10">
+    <p class="text-4xl font-extralight text-white">More work</p>
+    <p class="text-4xl font-thin opacity-60 text-white">Because we're awesome!</p>
+    <div class="grid grid-cols-3 gap-10 mt-10">
+        {
+
+            WORK.map( ( work ) => {
+
+                return (
+                    <MoreWorkItem
+                        image={ work.image }
+                        title={ work.title }
+                        category={ work.categories }
+                    />
+                )
+
+            })
+
+        }
+    </div>
+</div>

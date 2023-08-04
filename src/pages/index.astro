@@ -3,10 +3,12 @@ import HomeMasthead from "../components/home/Masthead.astro"
 import '@fontsource/ibm-plex-sans/200.css';
 import '@fontsource/ibm-plex-sans/400.css';
 import "../styles.css"
-import Modernlife from "../components/home/Modernlife.astro"
-import Title from "../components/home/Title.astro"
-import Morework from "../components/home/Morework.astro"
+import ModernLife from "../components/home/ModernLife.astro"
+
+import MoreWork from "../components/home/MoreWork.astro"
+import Accelerator from "../components/home/Accelerator.astro"
 import Footer from "../components/home/Footer.astro"
+import HorizontalLine from "../components/home/HorizontalLine.astro"
 ---
 
 <html lang="en">
@@ -14,161 +16,38 @@ import Footer from "../components/home/Footer.astro"
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
+		<title>Osenorth</title>
 	</head>
-	<body class="bg-black text-white">
+	<body class="bg-black">
+		{ /* HOME MASTHEAD */ }
 		<HomeMasthead />
-		<main class="container max-w-full px-10">
-			<Modernlife
-				title="Modern life is officeless life"
-				text="We work from home or from a coffee shop near us"
-				description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
-				image=""
-			/>
-			<hr>
-			<div class="mt-8">   
-				<Title 
-					title="More work" 
-					text="Because we're awesome!"   
-				/>  
-			<div class="grid grid-cols-3 gap-10 mt-14 mb-28"> 
-				<Morework
-					image=""
-					title="OnePort — Starlight Theme"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="KOBP — Paranormal Investigation Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"NO-CODE"
-						]}
-				/>
-				<Morework
-					image=""
-					title="Twitter Bot Website Design"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Krauf Portfolio"
-					category={[
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="MellowVillas — Staycation Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="Minecraft Server"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Urbano — Digital Agency Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Joseph Portfolio"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Ahoikapptn! — Agency Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-			</div>         
-			</div>
-			<hr>
-			<!-- Open Positions Section -->
-			<Modernlife
-				title="Open Positions"
-				text="Come join us"
-				description="Once upon a time, we were on the lookout for new talent to join our crew. But for now, we're content with our current team and don't have any open positions. Don't worry though, we'll keep you posted when things change. In the meantime, keep honing your skills and following your passion."
-				image=""
-			/>
-			<hr>
-			<div class="grid grid-cols-2 gap-80 py-8">
-				<div>
-					<Title 
-						title="Osenorth Accelerator" 
-						text="Unlimited Design subscription for a fixed monthly fee"   
-					/> 
-				</div>
-				<div class="text-lg font-light text-gray-400">
-					<p>Startups need to move fast. We know, our ceo is one of your own. So get your design done that follows — conceptualize & iterate method — before another javascript library pops up, yes, that fast. No meetings, no worries, just quality work and results to get you ahead of the curve.</p>
-				</div>
-			</div> 
-			<p><a href="https://accelerator.osenorth.co/" target="_blank">Visit osenorth.accelerator</a></p>
+		<ModernLife
+			title="Modern life is officeless life"
+			sub_title="We work from home or from a coffee shop near us"
+			description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
+			video="https://blupp.b-cdn.net/osenorth/remote.mp4"
+		/>
 
-			<div class="bg-purple-700 h-[95vh] my-16"></div>  <!-- Insert image here -->
-			<hr>
-			<div class="flex mt-6 justify-between mb-40">
-				<div class="flex-col space-y-16">
-					<div>
-					<Title
-						title="Got a project?"
-						text="Let's talk"
-					/>
-				</div>
-					<p>Tell us everything</p>			
-				</div>
-				<div class="flex gap-32">
-					
-						<ul class="flex-cols space-y-3">
-							<li>About</li>
-							<li>Services</li>
-							<li>Clients</li>
-							<li>Contact</li>
-						</ul>
-						<ul class="flex-cols space-y-3">
-							<li>Playground</li>
-							<li>News</li>
-							<li>Voyages</li>
-							<li>Offices</li>
-						</ul>
-						<ul class="flex-cols space-y-3">
-							<li>accelerator.osenorth</li>
-							<li>code.osenorth</li>
-							<li>community.osenorth</li>
-							<li>store.osenorth</li>
-							<li>events.osenorth</li>
-						</ul>				
-				</div>
-			</div>
-			<hr>
-			<Footer/>
-		</main>
+		{ /* OPEN POSITIONS */ }
+		<HorizontalLine />
+		<ModernLife
+			title="Open Positions"
+			sub_title="Come join us"
+			description="Once upon a time, we were on the lookout for new talent to join our crew. But for now, we're content with our current team and don't have any open positions. Don't worry though, we'll keep you posted when things change. In the meantime, keep honing your skills and following your passion."
+			video="https://blupp.b-cdn.net/osenorth/join-us.mp4"
+		/>
+		<HorizontalLine />
+
+		{ /* WORK */ }
+		<MoreWork />
+		<HorizontalLine />
+
+		{ /* ACCELERATOR */ }
+		<Accelerator />
+		<HorizontalLine />
+
+		{ /* FOOTER */ }
+		<Footer />
 	</body>
 </html>
 
