@@ -5,8 +5,10 @@ import '@fontsource/ibm-plex-sans/400.css';
 import "../styles.css"
 import ModernLife from "../components/home/ModernLife.astro"
 import Title from "../components/home/Title.astro"
-import Morework from "../components/home/Morework.astro"
+import MoreWorkItem from "../components/home/MoreWorkItem.astro"
+import MoreWork from "../components/home/MoreWork.astro"
 import Footer from "../components/home/Footer.astro"
+import HorizontalLine from "../components/home/HorizontalLine.astro"
 ---
 
 <html lang="en">
@@ -24,106 +26,18 @@ import Footer from "../components/home/Footer.astro"
 			description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
 			image=""
 		/>
+		{ /* OPEN POSITIONS */ }
+		<HorizontalLine />
+		<ModernLife
+			title="Open Positions"
+			sub_title="Come join us"
+			description="Once upon a time, we were on the lookout for new talent to join our crew. But for now, we're content with our current team and don't have any open positions. Don't worry though, we'll keep you posted when things change. In the meantime, keep honing your skills and following your passion."
+			image=""
+		/>
+		<HorizontalLine />
+		<MoreWork />
+		<HorizontalLine />
 		<main class="container max-w-full px-10">
-			<ModernLife
-				title="Modern life is officeless life"
-				text="We work from home or from a coffee shop near us"
-				description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
-				image=""
-			/>
-			<hr>
-			<div class="mt-8">
-				<Title
-					title="More work"
-					text="Because we're awesome!"
-				/>
-			<div class="grid grid-cols-3 gap-10 mt-14 mb-28">
-				<Morework
-					image=""
-					title="OnePort — Starlight Theme"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="KOBP — Paranormal Investigation Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"NO-CODE"
-						]}
-				/>
-				<Morework
-					image=""
-					title="Twitter Bot Website Design"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Krauf Portfolio"
-					category={[
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="MellowVillas — Staycation Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						"DEVELOPMENT"
-						]}
-				/>
-				<Morework
-					image=""
-					title="Minecraft Server"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Urbano — Digital Agency Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Joseph Portfolio"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-				<Morework
-					image=""
-					title="Ahoikapptn! — Agency Website"
-					category={[
-						"BRANDING",
-						"DESIGN",
-						]}
-				/>
-			</div>
-			</div>
-			<hr>
-			<!-- Open Positions Section -->
-			<ModernLife
-				title="Open Positions"
-				text="Come join us"
-				description="Once upon a time, we were on the lookout for new talent to join our crew. But for now, we're content with our current team and don't have any open positions. Don't worry though, we'll keep you posted when things change. In the meantime, keep honing your skills and following your passion."
-				image=""
-			/>
-			<hr>
 			<div class="grid grid-cols-2 gap-80 py-8">
 				<div>
 					<Title

@@ -1,0 +1,29 @@
+---
+const{
+
+    image,
+    title,
+    category,
+
+} = Astro.props
+---
+
+<div>
+    <div class="bg-blue-600 h-80"></div>
+    <div class="mt-4">
+        <p class="text-lg font-bold text-white">{ title }</p>
+    </div>
+    <div class="flex gap-2 mt-2">
+        {
+
+            category?.map( (category) => {
+
+                return (
+                    <span class="text-sm text-gray-400">{ category }</span>
+                )
+
+            })
+
+        }
+    </div>
+</div>

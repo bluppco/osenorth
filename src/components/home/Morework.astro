@@ -1,24 +1,25 @@
 ---
-const{
-    
-    image,
-    title,
-    category,
-
-} = Astro.props
+import MoreWorkItem from "./MoreWorkItem.astro"
+import { WORK } from "../../constants"
 ---
-
-<div>
-    <div class="bg-blue-600 h-80"></div> <!-- insert image here -->
-    <p class="text-lg font-bold">{ title }</p>
-    <div class="flex gap-2">
+<div class="p-10">
+    <p class="text-4xl font-extralight text-white">More work</p>
+    <p class="text-4xl font-thin opacity-60 text-white">Because we're awesome!</p>
+    <div class="grid grid-cols-3 gap-10 mt-10">
         {
-            category?.map((category)=>{
+
+            WORK.map( ( work ) => {
+
                 return (
-                    <span class="text-sm text-gray-400">{ category }</span>
+                    <MoreWorkItem
+                        image={ work.image }
+                        title={ work.title }
+                        category={ work.categories }
+                    />
                 )
+
             })
+
         }
-    
     </div>
 </div>
