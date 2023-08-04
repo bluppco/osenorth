@@ -6,6 +6,7 @@ import "../styles.css"
 import Modernlife from "../components/home/Modernlife.astro"
 import Title from "../components/home/Title.astro"
 import Morework from "../components/home/Morework.astro"
+import Footer from "../components/home/Footer.astro"
 ---
 
 <html lang="en">
@@ -129,6 +130,44 @@ import Morework from "../components/home/Morework.astro"
 				</div>
 			</div> 
 			<p><a href="https://accelerator.osenorth.co/" target="_blank">Visit osenorth.accelerator</a></p>
+
+			<div class="bg-purple-700 h-[95vh] my-16"></div>  <!-- Insert image here -->
+			<hr>
+			<div class="flex mt-6 justify-between mb-40">
+				<div class="flex-col space-y-16">
+					<div>
+					<Title
+						title="Got a project?"
+						text="Let's talk"
+					/>
+				</div>
+					<p>Tell us everything</p>			
+				</div>
+				<div class="flex gap-32">
+					
+						<ul class="flex-cols space-y-3">
+							<li>About</li>
+							<li>Services</li>
+							<li>Clients</li>
+							<li>Contact</li>
+						</ul>
+						<ul class="flex-cols space-y-3">
+							<li>Playground</li>
+							<li>News</li>
+							<li>Voyages</li>
+							<li>Offices</li>
+						</ul>
+						<ul class="flex-cols space-y-3">
+							<li>accelerator.osenorth</li>
+							<li>code.osenorth</li>
+							<li>community.osenorth</li>
+							<li>store.osenorth</li>
+							<li>events.osenorth</li>
+						</ul>				
+				</div>
+			</div>
+			<hr>
+			<Footer/>
 		</main>
 	</body>
 </html>
