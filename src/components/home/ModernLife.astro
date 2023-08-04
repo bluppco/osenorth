@@ -2,8 +2,8 @@
 const {
 
     description,
-    image,
     sub_title,
+    video,
     title,
 
 } = Astro.props
@@ -20,6 +20,17 @@ const {
         </div>
     </div>
     <div class="col-span-3">
-        <div class="bg-purple-700 w-full h-[70vh]"></div>
+        <div class="bg-purple-700 w-full h-[70vh]">
+            <video
+                loop={ true }
+                autoplay={ true }
+                muted={ true }
+                playsinline={ true }
+                preload="auto"
+                class="h-full w-full object-cover"
+            >
+                <source src={video } type="video/mp4"/>
+            </video>
+        </div>
     </div>
 </div>
