@@ -29,7 +29,9 @@ An award winning full-service creative agency, infinitely crazy about functional
 ## How to run the project
 - Clone the project.
 - install packages
+
     npm i
 - run astro project
+
     npm run dev
 - Enjoy
