@@ -16,3 +16,9 @@ An award winning full-service creative agency, infinitely crazy about functional
 
 ## Things not touched
 - I could optimised the images further by requesting sized images from the browser, i.e. if request is coming from mobile, request half the resolution of image. Say, not a 1500x1000 image but instead 750x500. Tradeoff of writing JS vs reducing image size.
+
+## Technology
+- Astro
+- Tailwind
+- BunnyCDN
+- Cloudflare
