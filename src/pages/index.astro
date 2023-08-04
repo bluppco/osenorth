@@ -5,6 +5,7 @@ import '@fontsource/ibm-plex-sans/400.css';
 import "../styles.css"
 import Modernlife from "../components/home/Modernlife.astro"
 import Title from "../components/home/Title.astro"
+import Morework from "../components/home/Morework.astro"
 ---
 
 <html lang="en">
@@ -24,17 +25,91 @@ import Title from "../components/home/Title.astro"
 				image=""
 			/>
 			<hr>
-			<div class="mt-8">
-				<Title
-				title="More work"
-				text="Because we're awesome!"
+			<div class="mt-8">   
+				<Title 
+					title="More work" 
+					text="Because we're awesome!"   
+				/>     
+			<div class="grid grid-cols-3 gap-10 mt-14 mb-28"> 
+				<Morework
+					image=""
+					title="OnePort — Starlight Theme"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						"DEVELOPMENT"
+						]}
 				/>
-				<div class="grid grid-cols-3">
-
-				</div>
-				
-			</div>
-
+				<Morework
+					image=""
+					title="KOBP — Paranormal Investigation Website"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						"NO-CODE"
+						]}
+				/>
+				<Morework
+					image=""
+					title="Twitter Bot Website Design"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						]}
+				/>
+				<Morework
+					image=""
+					title="Krauf Portfolio"
+					category={[
+						"DESIGN",
+						"DEVELOPMENT"
+						]}
+				/>
+				<Morework
+					image=""
+					title="MellowVillas — Staycation Website"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						"DEVELOPMENT"
+						]}
+				/>
+				<Morework
+					image=""
+					title="Minecraft Server"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						]}
+				/>
+				<Morework
+					image=""
+					title="Urbano — Digital Agency Website"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						]}
+				/>
+				<Morework
+					image=""
+					title="Joseph Portfolio"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						]}
+				/>
+				<Morework
+					image=""
+					title="Ahoikapptn! — Agency Website"
+					category={[
+						"BRANDING",
+						"DESIGN",
+						]}
+				/>
+			</div>         
+		</div>
+		<hr>
 		</main>
 	</body>
 </html>
+
