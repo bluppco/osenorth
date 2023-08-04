@@ -3,7 +3,7 @@ export const WORK =  [
     {
 
         title: "OnePort — Starlight Theme",
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/oneport.webp",
         categories: [
 
             "BRANDING",
@@ -15,7 +15,7 @@ export const WORK =  [
     },
     {
 
-        image:"",
+        image:"https://blupp.b-cdn.net/osenorth/kobp.webp",
         title:"KOBP — Paranormal Investigation Website",
         categories: [
 
@@ -28,20 +28,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
-        title: "KOBP — Paranormal Investigation Website",
-        categories: [
-
-            "BRANDING",
-            "DESIGN",
-            "NO-CODE"
-
-        ]
-
-    },
-    {
-
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/twBot.webp",
         title: "Twitter Bot Website Design",
         categories: [
 
@@ -53,7 +40,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/folio.webp",
         title: "Krauf Portfolio",
         categories: [
 
@@ -64,7 +51,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/mv.webp",
         title: "MellowVillas — Staycation Website",
         categories: [
 
@@ -77,7 +64,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/mc.webp",
         title: "Minecraft Server",
         categories: [
 
@@ -88,7 +75,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/urbano.webp",
         title: "Urbano — Digital Agency Website",
         categories: [
 
@@ -100,7 +87,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/creativefolio.webp",
         title: "Joseph Portfolio",
         categories: [
 
@@ -112,7 +99,7 @@ export const WORK =  [
     },
     {
 
-        image: "",
+        image: "https://blupp.b-cdn.net/osenorth/ahoi.webp",
         title: "Ahoikapptn! — Agency Website",
         categories: [
 
