@@ -1,4 +1,14 @@
 ---
+import HomeMasthead from "../components/home/Masthead.astro"
+import '@fontsource/ibm-plex-sans/200.css';
+import '@fontsource/ibm-plex-sans/400.css';
+import "../styles.css"
+import ModernLife from "../components/home/ModernLife.astro"
+
+import MoreWork from "../components/home/MoreWork.astro"
+import Accelerator from "../components/home/Accelerator.astro"
+import Footer from "../components/home/Footer.astro"
+import HorizontalLine from "../components/home/HorizontalLine.astro"
 ---
 
 <html lang="en">
@@ -6,10 +16,38 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Osenorth</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-black">
+		{ /* HOME MASTHEAD */ }
+		<HomeMasthead />
+		<ModernLife
+			title="Modern life is officeless life"
+			sub_title="We work from home or from a coffee shop near us"
+			description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
+			video="https://blupp.b-cdn.net/osenorth/remote.mp4"
+		/>
+
+		{ /* OPEN POSITIONS */ }
+		<HorizontalLine />
+		<MoreWork />
+
+		<HorizontalLine />
+
+		{ /* WORK */ }
+		<ModernLife
+			title="Open Positions"
+			sub_title="Come join us"
+			description="Once upon a time, we were on the lookout for new talent to join our crew. But for now, we're content with our current team and don't have any open positions. Don't worry though, we'll keep you posted when things change. In the meantime, keep honing your skills and following your passion."
+			video="https://blupp.b-cdn.net/osenorth/join-us.mp4"
+		/>
+		<HorizontalLine />
+
+		{ /* ACCELERATOR */ }
+		<Accelerator />
+		<HorizontalLine />
+
+		{ /* FOOTER */ }
+		<Footer />
 	</body>
 </html>

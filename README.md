@@ -1,48 +1,24 @@
-# Astro Starter Kit: Minimal
-
-```
-npm create astro@latest -- --template minimal
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 # osenorth
+An award winning full-service creative agency, infinitely crazy about functional, emotional and polished digital interfaces and products.
+
+## Problems
+- Images and Videos taking too much time to load.
+- Videos not loading on iPhone and iPad. Tested all the browsers but did not work.
+
+## Changes
+- Webm file format for video doesn't work on iPhone browsers. I converted it to mp4 so that it could be played on all the devices.
+- Delivering images and videos via CDN.
+- Adding 40% opacity of black color for the text to be prominent on the masthead video.
+- JS network calls. Currently - 345Kb; Updated - 0Kb; Better - Infintely better. Not calling any JS module.
+- Images network calls. Currently - 9.62Mb; Updated - 1.65Mb. **483% better**.
+- HTML network calls. Currently - 77.33Kb; Updated - 11.07Kb. **598% better**.
+- CSS network calls. Currently - 23.4Kb; Updated - 22.45Kb. **4% better**.
+
+## Things not touched
+- I could optimised the images further by requesting sized images from the browser, i.e. if request is coming from mobile, request half the resolution of image. Say, not a 1500x1000 image but instead 750x500. Tradeoff of writing JS vs reducing image size.
+
+## Technology
+- Astro
+- Tailwind
+- BunnyCDN
+- Cloudflare
