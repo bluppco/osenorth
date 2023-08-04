@@ -3,7 +3,7 @@ import HomeMasthead from "../components/home/Masthead.astro"
 import '@fontsource/ibm-plex-sans/200.css';
 import '@fontsource/ibm-plex-sans/400.css';
 import "../styles.css"
-import Modernlife from "../components/home/Modernlife.astro"
+import ModernLife from "../components/home/ModernLife.astro"
 import Title from "../components/home/Title.astro"
 import Morework from "../components/home/Morework.astro"
 import Footer from "../components/home/Footer.astro"
@@ -14,24 +14,30 @@ import Footer from "../components/home/Footer.astro"
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
+		<title>Osenorth</title>
 	</head>
-	<body class="bg-black text-white">
+	<body class="bg-black">
 		<HomeMasthead />
+		<ModernLife
+			title="Modern life is officeless life"
+			sub_title="We work from home or from a coffee shop near us"
+			description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
+			image=""
+		/>
 		<main class="container max-w-full px-10">
-			<Modernlife
+			<ModernLife
 				title="Modern life is officeless life"
 				text="We work from home or from a coffee shop near us"
 				description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
 				image=""
 			/>
 			<hr>
-			<div class="mt-8">   
-				<Title 
-					title="More work" 
-					text="Because we're awesome!"   
-				/>  
-			<div class="grid grid-cols-3 gap-10 mt-14 mb-28"> 
+			<div class="mt-8">
+				<Title
+					title="More work"
+					text="Because we're awesome!"
+				/>
+			<div class="grid grid-cols-3 gap-10 mt-14 mb-28">
 				<Morework
 					image=""
 					title="OnePort — Starlight Theme"
@@ -107,11 +113,11 @@ import Footer from "../components/home/Footer.astro"
 						"DESIGN",
 						]}
 				/>
-			</div>         
+			</div>
 			</div>
 			<hr>
 			<!-- Open Positions Section -->
-			<Modernlife
+			<ModernLife
 				title="Open Positions"
 				text="Come join us"
 				description="Once upon a time, we were on the lookout for new talent to join our crew. But for now, we're content with our current team and don't have any open positions. Don't worry though, we'll keep you posted when things change. In the meantime, keep honing your skills and following your passion."
@@ -120,15 +126,15 @@ import Footer from "../components/home/Footer.astro"
 			<hr>
 			<div class="grid grid-cols-2 gap-80 py-8">
 				<div>
-					<Title 
-						title="Osenorth Accelerator" 
-						text="Unlimited Design subscription for a fixed monthly fee"   
-					/> 
+					<Title
+						title="Osenorth Accelerator"
+						text="Unlimited Design subscription for a fixed monthly fee"
+					/>
 				</div>
 				<div class="text-lg font-light text-gray-400">
 					<p>Startups need to move fast. We know, our ceo is one of your own. So get your design done that follows — conceptualize & iterate method — before another javascript library pops up, yes, that fast. No meetings, no worries, just quality work and results to get you ahead of the curve.</p>
 				</div>
-			</div> 
+			</div>
 			<p><a href="https://accelerator.osenorth.co/" target="_blank">Visit osenorth.accelerator</a></p>
 
 			<div class="bg-purple-700 h-[95vh] my-16"></div>  <!-- Insert image here -->
@@ -141,10 +147,10 @@ import Footer from "../components/home/Footer.astro"
 						text="Let's talk"
 					/>
 				</div>
-					<p>Tell us everything</p>			
+					<p>Tell us everything</p>
 				</div>
 				<div class="flex gap-32">
-					
+
 						<ul class="flex-cols space-y-3">
 							<li>About</li>
 							<li>Services</li>
@@ -163,7 +169,7 @@ import Footer from "../components/home/Footer.astro"
 							<li>community.osenorth</li>
 							<li>store.osenorth</li>
 							<li>events.osenorth</li>
-						</ul>				
+						</ul>
 				</div>
 			</div>
 			<hr>
