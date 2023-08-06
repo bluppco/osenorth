@@ -1,0 +1,50 @@
+---
+import Title from "./Title.astro"
+---
+<section class="p-4 md:p-10  max-w-screen-2xl mx-auto">
+    <div class="flex justify-between mb-20 grid grid-cols-1 md:grid-cols-2 items-start">
+        <div class="flex-col space-y-16">
+            <div>
+                <Title
+                    title="Got a project?"
+                    text="Let's talk"
+                />
+            </div>
+            <div>
+                <a href="https://tripetto.app/run/A7GU2RWL25" target="_blank">
+                    <div class="flex items-center gap-2">
+                        <div class="w-4 h-4 -rotate-90">
+                            <img
+                                src="play-icon.svg"
+                                class="w-full h-full"
+                                alt="external linkicon"
+                            />
+                        </div>
+                        <p class="text-white">Tell us everything</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-10 mt-8 md:mt-0">
+            <ul class="flex-cols space-y-3">
+                <li class="text-zinc-400 text-sm cursor-not-allowed">About</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">Services</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">Clients</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">Contact</li>
+            </ul>
+            <ul class="flex-cols space-y-3">
+                <li class="text-zinc-400 text-sm cursor-not-allowed">Playground</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">News</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">Voyages</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">Offices</li>
+            </ul>
+            <ul class="flex-cols space-y-3">
+                <li class="text-zinc-400 text-sm cursor-not-allowed">accelerator.osenorth</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">code.osenorth</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">community.osenorth</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">store.osenorth</li>
+                <li class="text-zinc-400 text-sm cursor-not-allowed">events.osenorth</li>
+            </ul>
+        </div>
+    </div>
+</section>

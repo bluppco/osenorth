@@ -9,6 +9,7 @@ import MoreWork from "../components/home/MoreWork.astro"
 import Accelerator from "../components/home/Accelerator.astro"
 import Footer from "../components/home/Footer.astro"
 import HorizontalLine from "../components/home/HorizontalLine.astro"
+import Connect from "../components/home/Connect.astro"
 ---
 
 <html lang="en">
@@ -16,25 +17,41 @@ import HorizontalLine from "../components/home/HorizontalLine.astro"
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Osenorth</title>
+		<meta name="robots" content="noindex,nofollow">
+		<title>osenorth. An award winning full-service creative agency.</title>
+		<meta name="title" content="osenorth. An award winning full-service creative agency." />
+		<meta name="description" content="An award winning full-service creative agency, infinitely crazy about functional, emotional and polished digital interfaces and products." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.osenorth.co/" />
+		<meta property="og:title" content="osenorth. An award winning full-service creative agency." />
+		<meta property="og:description" content="An award winning full-service creative agency, infinitely crazy about functional, emotional and polished digital interfaces and products." />
+		<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://www.osenorth.co/" />
+		<meta property="twitter:title" content="osenorth. An award winning full-service creative agency." />
+		<meta property="twitter:description" content="An award winning full-service creative agency, infinitely crazy about functional, emotional and polished digital interfaces and products." />
+		<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
 	</head>
 	<body class="bg-black">
+
 		{ /* HOME MASTHEAD */ }
 		<HomeMasthead />
+
+		{ /* MODERN LIFE */ }
 		<ModernLife
 			title="Modern life is officeless life"
 			sub_title="We work from home or from a coffee shop near us"
 			description="Modern life means working from anywhere, whether it's a cozy coffee shop or the comfort of your own home. We understand the value of flexibility and the importance of a work-life balance. We embrace the office-less lifestyle and empower our team to work in the environment that suits them best."
 			video="https://blupp.b-cdn.net/osenorth/remote.mp4"
 		/>
-
-		{ /* OPEN POSITIONS */ }
-		<HorizontalLine />
-		<MoreWork />
-
 		<HorizontalLine />
 
 		{ /* WORK */ }
+		<MoreWork />
+		<HorizontalLine />
+
+		{ /* OPEN POSITIONS */ }
 		<ModernLife
 			title="Open Positions"
 			sub_title="Come join us"
@@ -45,6 +62,10 @@ import HorizontalLine from "../components/home/HorizontalLine.astro"
 
 		{ /* ACCELERATOR */ }
 		<Accelerator />
+		<HorizontalLine />
+
+		{ /* CONNECT */ }
+		<Connect />
 		<HorizontalLine />
 
 		{ /* FOOTER */ }
