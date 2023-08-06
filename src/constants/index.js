@@ -110,3 +110,18 @@ export const WORK =  [
     }
 
 ]
+
+export const CLIENTS = [
+
+    "Meta",
+    "Govt. Of Australia",
+    "RayWhite Group",
+    "Lonely Planet",
+    "Ritz Carlton",
+    "Whitsunday Vacations",
+    "Minecraft",
+    "FICCI",
+    "NeGD",
+    "Digital India"
+
+]

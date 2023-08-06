@@ -1,0 +1,35 @@
+---
+import { CLIENTS } from "../../constants"
+---
+<section class="max-w-screen-2xl mx-auto container p-4 md:p-10">
+    <div class="relative flex overflow-x-hidden">
+        <div class="py-8 animate-marquee whitespace-nowrap">
+            {
+
+                CLIENTS.map( ( client ) => {
+
+                    return (
+                        <span class="mx-8 text-2xl text-white select-none">{ client }</span>
+
+                    )
+
+                })
+
+            }
+        </div>
+        <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+            {
+
+                CLIENTS.map( ( client ) => {
+
+                    return (
+                        <span class="mx-8 text-2xl text-white select-none">{ client }</span>
+
+                    )
+
+                })
+
+            }
+        </div>
+    </div>
+</section>
