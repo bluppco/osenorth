@@ -110,3 +110,110 @@ export const WORK =  [
     }
 
 ]
+
+export const SELECTED_WORK =  [
+
+    {
+
+        title: "Lonely Planet",
+        image: "https://blupp.b-cdn.net/osenorth/lonelyplanet.webp?quality=80",
+        categories: [
+
+            "BRANDING",
+            "DESIGN",
+            "DEVELOPMENT"
+
+        ],
+        video_flag: false,
+        video: ""
+
+    },
+    {
+
+        image:"",
+        title:"Ritz Carlton New York",
+        categories: [
+
+            "BRANDING",
+            "DESIGN",
+
+        ],
+        video_flag: true,
+        video: "https://blupp.b-cdn.net/osenorth/rcnyc.mp4"
+
+    },
+    {
+
+        image: "",
+        title: "Ray White",
+        categories: [
+
+            "ADVERTISEMENT",
+            "DEVELOPMENT",
+
+        ],
+        video_flag: true,
+        video: "https://blupp.b-cdn.net/osenorth/raywhite.mp4"
+
+    },
+    {
+
+        image: "",
+        title: "Queensland Tourism",
+        categories: [
+
+            "STRATEGY",
+            "DEVELOPMENT"
+        ],
+        video_flag: true,
+        video: "https://blupp.b-cdn.net/osenorth/queensland.mp4"
+
+    },
+    {
+
+        image: "https://blupp.b-cdn.net/osenorth/meta.webp?quality=80",
+        title: "Meta",
+        categories: [
+
+            "BRANDING",
+            "STRATEGY",
+            "DESIGN",
+            "DEVELOPMENT"
+
+        ],
+        video_flag: false,
+        video: ""
+
+    },
+    {
+
+        image: "https://blupp.b-cdn.net/osenorth/whitsunday.webp?quality=80",
+        title: "Whitsunday Vacations",
+        categories: [
+
+            "BRANDING",
+            "STRATEGY",
+            "DESIGN",
+            "NO CODE"
+        ],
+        video_flag: false,
+        video: ""
+
+    }
+
+]
+
+export const CLIENTS = [
+
+    "Meta",
+    "Govt. Of Australia",
+    "RayWhite Group",
+    "Lonely Planet",
+    "Ritz Carlton",
+    "Whitsunday Vacations",
+    "Minecraft",
+    "FICCI",
+    "NeGD",
+    "Digital India"
+
+]
