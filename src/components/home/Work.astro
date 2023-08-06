@@ -1,0 +1,61 @@
+---
+import WorkItem from "./WorkItem.astro";
+import { SELECTED_WORK } from "../../constants"
+const length = SELECTED_WORK.length
+const half_length = Math.round( length/2 )
+---
+
+<section class="grid grid-cols-1 md:grid-cols-2 justify-between gap-10 p-4 md:p-10 max-w-screen-2xl mx-auto">
+    <div class="flex flex-col gap-10">
+        <div>
+            <p class="text-3xl md:text-4xl font-thin text-white">All work, all play</p>
+            <div class="mt-2">
+                <p class="text-3xl md:text-4xl font-thin opacity-60 text-white">Selected work</p>
+            </div>
+        </div>
+        {
+
+            SELECTED_WORK.map( ( work, work_index ) => {
+
+                if( work_index < half_length ){
+
+                    return (
+                        <WorkItem
+                            title={ work.title}
+                            category={ work.categories }
+                            image={ work.image }
+                            video_flag = { work.video_flag }
+                            video={ work.video }
+                        />
+                    )
+
+                }
+
+            })
+
+        }
+    </div>
+    <div class="flex flex-col gap-10">
+        {
+
+            SELECTED_WORK.map( ( work, work_index ) => {
+
+                if( work_index >= half_length ){
+
+                    return (
+                        <WorkItem
+                            title={ work.title}
+                            category={ work.categories }
+                            image={ work.image }
+                            video_flag = { work.video_flag }
+                            video={ work.video }
+                        />
+                    )
+
+                }
+
+            })
+
+        }
+    </div>
+</section>
