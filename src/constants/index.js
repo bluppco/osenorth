@@ -125,7 +125,8 @@ export const SELECTED_WORK =  [
 
         ],
         video_flag: false,
-        video: ""
+        video: "",
+        link: "https://www.lonelyplanet.com/"
 
     },
     {
@@ -139,7 +140,8 @@ export const SELECTED_WORK =  [
 
         ],
         video_flag: true,
-        video: "https://blupp.b-cdn.net/osenorth/rcnyc.mp4"
+        video: "https://blupp.b-cdn.net/osenorth/rcnyc.mp4",
+        link: "https://rcpenthousesnewyork.com/"
 
     },
     {
@@ -153,7 +155,8 @@ export const SELECTED_WORK =  [
 
         ],
         video_flag: true,
-        video: "https://blupp.b-cdn.net/osenorth/raywhite.mp4"
+        video: "https://blupp.b-cdn.net/osenorth/raywhite.mp4",
+        link: "https://www.raywhite.com/proudly/"
 
     },
     {
@@ -166,7 +169,8 @@ export const SELECTED_WORK =  [
             "DEVELOPMENT"
         ],
         video_flag: true,
-        video: "https://blupp.b-cdn.net/osenorth/queensland.mp4"
+        video: "https://blupp.b-cdn.net/osenorth/queensland.mp4",
+        link: "https://www.queensland.com/in/en/home"
 
     },
     {
@@ -182,7 +186,8 @@ export const SELECTED_WORK =  [
 
         ],
         video_flag: false,
-        video: ""
+        video: "",
+        link: "https://www.facebook.com/business/agencies"
 
     },
     {
@@ -197,7 +202,8 @@ export const SELECTED_WORK =  [
             "NO CODE"
         ],
         video_flag: false,
-        video: ""
+        video: "",
+        link: "https://whitsundayvacations.com.au/"
 
     }
 
