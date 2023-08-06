@@ -10,7 +10,7 @@ An award winning full-service creative agency, infinitely crazy about functional
 
 ## Changes
 - Webm file format for video doesn't work on iPhone browsers. I converted it to mp4 so that it could be played on all the devices.
-- Delivering images and videos via CDN.
+- Delivering images and videos via CDN. Vercel is nice but they are not good with deliverying assets. Plus the cost of images optimised by them is too high as compared to other options available.
 - Adding 40% opacity of black color for the text to be prominent on the masthead video.
 - JS network calls. Currently - 345Kb; Updated - 0Kb; Better - Infintely better. Not calling any JS module.
 - Images network calls. Currently - 9.62Mb; Updated - 1.65Mb. **483% better**.
@@ -26,7 +26,7 @@ An award winning full-service creative agency, infinitely crazy about functional
 - BunnyCDN
 - Cloudflare
 
-# Font
+## Font
 - IBM Plex Sans - available for free.
 
 ## How to run the project

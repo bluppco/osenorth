@@ -1,0 +1,56 @@
+---
+const {
+
+    category,
+    image,
+    title,
+    video_flag,
+    video,
+
+} = Astro.props
+---
+<div>
+    <div class="bg-sky-700 h-[90vh]">
+        {
+
+            video_flag &&
+            <video
+                loop={ true }
+                autoplay={ true }
+                muted={ true }
+                playsinline={ true }
+                preload="auto"
+                class="h-full w-full object-cover"
+            >
+                <source src={ video } type="video/mp4"/>
+            </video>
+
+        }
+        {
+
+            !video_flag &&
+            <img
+                src={ image }
+                class="object-cover w-full h-full"
+                alt={ title + "'s image" }
+            />
+
+        }
+    </div>
+    <div class="mt-4 text-center">
+        <p class="text-3xl font-light text-zinc-400">{ title }</p>
+    </div>
+    <div class="flex gap-2 mt-2 justify-center items-center">
+        {
+
+            category?.map( (category) => {
+
+                return (
+                    <span class="text-sm text-gray-400">{ category }</span>
+                )
+
+            })
+
+        }
+    </div>
+</div>
