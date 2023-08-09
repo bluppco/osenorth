@@ -3,7 +3,7 @@ export const WORK =  [
     {
 
         title: "OnePort — Starlight Theme",
-        image: "https://blupp.b-cdn.net/osenorth/oneport.webp",
+        image: "https://blupp.b-cdn.net/osenorth/oneport.webp?quality=80",
         categories: [
 
             "BRANDING",
@@ -15,7 +15,7 @@ export const WORK =  [
     },
     {
 
-        image:"https://blupp.b-cdn.net/osenorth/kobp.webp",
+        image:"https://blupp.b-cdn.net/osenorth/kobp.webp?quality=80",
         title:"KOBP — Paranormal Investigation Website",
         categories: [
 
@@ -28,7 +28,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/twBot.webp",
+        image: "https://blupp.b-cdn.net/osenorth/twBot.webp?quality=80",
         title: "Twitter Bot Website Design",
         categories: [
 
@@ -40,7 +40,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/folio.webp",
+        image: "https://blupp.b-cdn.net/osenorth/folio.webp?quality=80",
         title: "Krauf Portfolio",
         categories: [
 
@@ -51,7 +51,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/mv.webp",
+        image: "https://blupp.b-cdn.net/osenorth/mv.webp?quality=80",
         title: "MellowVillas — Staycation Website",
         categories: [
 
@@ -64,7 +64,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/mc.webp",
+        image: "https://blupp.b-cdn.net/osenorth/mc.webp?quality=80",
         title: "Minecraft Server",
         categories: [
 
@@ -75,7 +75,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/urbano.webp",
+        image: "https://blupp.b-cdn.net/osenorth/urbano.webp?quality=80",
         title: "Urbano — Digital Agency Website",
         categories: [
 
@@ -87,7 +87,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/creativefolio.webp",
+        image: "https://blupp.b-cdn.net/osenorth/creativefolio.webp?quality=80",
         title: "Joseph Portfolio",
         categories: [
 
@@ -99,7 +99,7 @@ export const WORK =  [
     },
     {
 
-        image: "https://blupp.b-cdn.net/osenorth/ahoi.webp",
+        image: "https://blupp.b-cdn.net/osenorth/ahoi.webp?quality=80",
         title: "Ahoikapptn! — Agency Website",
         categories: [
 
