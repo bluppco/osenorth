@@ -1,3 +1,7 @@
+---
+import H1 from "../common/atom/H1.astro"
+import Paragraph from "../common/atom/Paragraph.astro"
+---
 <section class="bg-black py-4 text-center fixed bottom-0 w-full z-30 px-4 md:px-0">
     <p class="text-white text-sm">
         <span>This is a demo website by</span>
@@ -36,7 +40,9 @@
     <div class="max-w-screen-2xl mx-auto relative">
         <section class="absolute bottom-0 left-0 h-96 w-full z-10">
             <div class="flex items-center justify-center h-full px-10 flex-col">
-                <h1 class="font-extralight text-3xl xl:text-6xl text-center text-zinc-50">An award winning full-service creative agency, infinitely crazy about functional, emotional and polished digital interfaces and products.</h1>
+                <H1
+                    text="An award winning full-service creative agency, infinitely crazy about functional, emotional and polished digital interfaces and products."
+                />
                 <div class="mt-10">
                     <a href="https://tripetto.app/run/A7GU2RWL25" target="_blank">
                         <div class="flex items-center gap-2">
@@ -47,7 +53,9 @@
                                     alt="external linkicon"
                                 />
                             </div>
-                            <p class="text-sm md:text-base text-zinc-50 font-bold">Contact Us</p>
+                            <Paragraph
+                                text="Contact Us"
+                            />
                         </div>
                     </a>
                 </div>
