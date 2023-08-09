@@ -9,6 +9,8 @@ const {
     video,
 
 } = Astro.props
+import H2 from "../common/atom/H2.astro"
+import Paragraph from "../common/atom/Paragraph.astro"
 ---
 <a href={ link } target="_blank" rel="nofollow noreferrer">
     <div>
@@ -40,15 +42,20 @@ const {
             }
         </div>
         <div class="mt-4 text-center">
-            <p class="text-3xl font-light text-zinc-400">{ title }</p>
+            <H2
+                text={ title }
+            />
         </div>
-        <div class="flex gap-2 mt-2 justify-center items-center">
+        <div class="flex gap-4 mt-2 justify-center items-center">
             {
 
                 category?.map( (category) => {
 
                     return (
-                        <span class="text-sm text-gray-400">{ category }</span>
+                        <Paragraph
+                            text={ category }
+                            small={ true }
+                        />
                     )
 
                 })

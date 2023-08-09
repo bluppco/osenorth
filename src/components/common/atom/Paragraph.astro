@@ -1,4 +1,4 @@
 ---
-const { text } = Astro.props
+const { text, small } = Astro.props
 ---
-<p class="text-sm md:text-base text-white font-semibold">{ text }</p>
+<p class={`${ small ? "md:text-sm text-zinc-400" : "" } text-sm md:text-base text-white font-semibold`}>{ text }</p>
