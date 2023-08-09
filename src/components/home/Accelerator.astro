@@ -1,17 +1,26 @@
 ---
 import Title from "./Title.astro"
+import H1 from "../common/atom/H1.astro"
+import Paragraph from "../common/atom/Paragraph.astro"
 ---
 <section class="p-4 md:p-10  max-w-screen-2xl mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8">
-        <div class="w-4/5">
-            <Title
-                title="Osenorth Accelerator"
-                text="Unlimited Design subscription for a fixed monthly fee"
+        <div class="w-4/5 flex flex-col gap-4">
+            <H1
+                text={ "Osenorth Accelerator" }
+            />
+            <H1
+                text={ "Unlimited Design subscription for a fixed monthly fee" }
+                secondary={ true }
             />
         </div>
         <div class="flex mt-4 md:mt-0 md:justify-end">
             <div class="w-4/5">
-                <p class="text-lg font-light text-gray-400">Startups need to move fast. We know, our ceo is one of your own. So get your design done that follows — conceptualize & iterate method — before another javascript library pops up, yes, that fast. No meetings, no worries, just quality work and results to get you ahead of the curve.</p>
+                <Paragraph
+                    text={ "Startups need to move fast. We know, our ceo is one of your own. So get your design done that follows — conceptualize & iterate method — before another javascript library pops up, yes, that fast. No meetings, no worries, just quality work and results to get you ahead of the curve." }
+                    thin={ true }
+                    secondary={ true }
+                />
             </div>
         </div>
     </div>
