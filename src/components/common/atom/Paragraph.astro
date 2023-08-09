@@ -1,0 +1,4 @@
+---
+const { text, small, thin, secondary } = Astro.props
+---
+<p class={`${ small ? "md:text-sm text-zinc-400" : "" } ${ thin ? "font-light" : "font-semibold" } ${ secondary ? "text-zinc-200" : "text-white"} text-sm md:text-base text-white`}>{ text }</p>
