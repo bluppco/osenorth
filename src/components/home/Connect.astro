@@ -1,13 +1,16 @@
 ---
-import Title from "./Title.astro"
+import H1 from "../common/atom/H1.astro"
 ---
 <section class="p-4 md:p-10  max-w-screen-2xl mx-auto">
     <div class="flex justify-between mb-20 grid grid-cols-1 md:grid-cols-2 items-start">
         <div class="flex-col space-y-16">
             <div>
-                <Title
-                    title="Got a project?"
-                    text="Let's talk"
+                <H1
+                    text={ "Got a project?" }
+                />
+                <H1
+                    text={ "Let's talk" }
+                    secondary={ true }
                 />
             </div>
             <div>
