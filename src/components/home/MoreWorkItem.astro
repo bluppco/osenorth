@@ -6,6 +6,8 @@ const{
     category,
 
 } = Astro.props
+import H4 from "../common/atom/H4.astro"
+import Paragraph from "../common/atom/Paragraph.astro"
 ---
 
 <div>
@@ -17,7 +19,9 @@ const{
         />
     </div>
     <div class="mt-4">
-        <p class="text-lg font-bold text-white">{ title }</p>
+        <H4
+            text={ title }
+        />
     </div>
     <div class="flex gap-2 mt-2">
         {
@@ -25,7 +29,10 @@ const{
             category?.map( (category) => {
 
                 return (
-                    <span class="text-sm text-gray-400">{ category }</span>
+                    <Paragraph
+                        text={ category }
+                        small={ true }
+                    />
                 )
 
             })
