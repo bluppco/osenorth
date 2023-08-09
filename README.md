@@ -16,8 +16,8 @@ An award winning full-service creative agency, infinitely crazy about functional
         Currently - 7 calls, 112Kb.
         Updated - 0 calls, 0Kb. Better - Infintely better. Not calling any JS module.
 - Images network calls.
-        Currently - 26 calls, 10.5Mb.
-        Updated - 19 calls, 2.7Mb. **288% better**.
+        Currently - 26 calls, 18.7Mb.
+        Updated - 21 calls, 2.56Mb. **630% better**.
 - HTML network calls.
         Currently - 17.89Kb;
         Updated - 5.72Kb. **212% better**.
